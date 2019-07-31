@@ -1,0 +1,38 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>HelloController</servlet-name>
+    <servlet-class>com.bootcamp.HelloController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HelloController</servlet-name>
+    <url-pattern>/agus</url-pattern>
+  </servlet-mapping>
+
+<!--  <filter>
+    <filter-name>jspFilter</filter-name>
+    <filter-class>com.bootcamp.Filter</filter-class>
+  </filter>-->
+
+  <filter>
+    <filter-name>login</filter-name>
+    <filter-class>com.bootcamp.LoginFilter</filter-class>
+  </filter>
+
+<!--  <filter-mapping>
+    <filter-name>jspFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>-->
+
+  <filter-mapping>
+    <filter-name>login</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+</web-app>

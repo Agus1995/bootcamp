@@ -1,0 +1,11 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <title>Good Thymes Virtual Grocery</title>
+  </head>
+
+  <body>
+    <p> Good bay world</p>
+  </body>
+
+</html>

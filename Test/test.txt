@@ -1,0 +1,6 @@
+Buat project Koperasi
+tb_anggota (id, nama, noHp) ->input, getList, update.
+tb_barang (id, namaBrg, harga) -> input, getList, update.
+tb_bulanan (id, bulan, totaltransaksi) -> getList
+
+tb_transaksi (id, id_barang, id_bulan, id_anggota, jumlah, total_harga) -> input, getList.
